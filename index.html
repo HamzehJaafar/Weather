@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="stylesheet" href="weather.css">
+
+
+</head>
+
+<body>
+
+<form class="input col-12 col-m-12">
+	City Name <input type="text" name="city" id="city" value="Toronto">
+
+	  <button type="button" onclick="getWeather()">Update</button>
+	
+</form>
+<section id="topRow" class="row">
+<h1 id="name"></h1>
+</section>
+<section id="main">
+<section id="middleRow" class="topweather">
+<img src="" id="imgWeather" alt="weather image">
+<h2 id="temp"></h2>
+<h3 onclick="swap()" class ="swap" id="swap"></h3>
+</section>
+<section id="todayWeather" class="weather">
+<section class="keeplevel"><p>Presusre: </p> <p id="pressure"></p></section>
+<section class="keeplevel"><p>Humidity: </p> <p id="humid"></p> </section>
+<section class="keeplevel"><p>Wind: </p><p id="wind"></p> </section>
+</section>
+</section>
+<h1>Weather for the next 24hrs</h1>
+<section id="main" class="row">
+<table class="col-m-12 col-12 tables">
+  <tr>
+    <th>Hour (GMT)</th>
+    <th>Temperature</th> 
+    <th>Humidity</th>
+    <th>Wind (M/s)</th>
+  </tr>
+  <tr>
+    <td id="hour1"></td>
+    <td id="hour1temp"></td>
+    <td id="hour1humid"></td>
+    <td id="hour1wind"></td>
+  </tr>
+  <tr>
+    <td id="hour2"></td>
+    <td id="hour2temp"></td>
+    <td id="hour2humid"></td>
+    <td id="hour2wind"></td>
+  </tr>
+    <tr>
+    <td id="hour3"></td>
+    <td id="hour3temp"></td>
+    <td id="hour3humid"></td>
+    <td id="hour3wind"></td>
+  </tr>
+  <tr>
+    <td id="hour4"></td>
+    <td id="hour4temp"></td>
+    <td id="hour4humid"></td>
+    <td id="hour4wind"></td>
+  </tr>
+    <tr>
+    <td id="hour5"></td>
+    <td id="hour5temp"></td>
+    <td id="hour5humid"></td>
+    <td id="hour5wind"></td>
+  </tr>
+    <tr>
+    <td id="hour6"></td>
+    <td id="hour6temp"></td>
+    <td id="hour6humid"></td>
+    <td id="hour6wind"></td>
+  </tr>
+    <tr>
+    <td id="hour7"></td>
+    <td id="hour7temp"></td>
+    <td id="hour7humid"></td>
+    <td id="hour7wind"></td>
+  </tr>
+    <tr>
+    <td id="hour8"></td>
+    <td id="hour8temp"></td>
+    <td id="hour8humid"></td>
+    <td id="hour8wind"></td>
+  </tr>
+</table>
+</section>
+<h1> Five day forecast </h1>
+
+<section id="main" class="row fdforecast">
+<section id="day1">
+<p id="day1date" class="date"> </p>
+<img src="" id="day1img" alt="weather image"> <p id="day1temp"></p>
+</section>
+<section id="day2"><p id="day2date" class="date"> </p>
+<img src="" id="day2img" alt="weather image"><p id="day2temp"></p>
+</section>
+<section id="day3"><p id="day3date" class="date"> </p>
+<img src="" id="day3img" alt="weather image"><p id="day3temp"></p>
+</section>
+<section id="day4"><p id="day4date" class="date"> </p>
+<img src="" id="day4img" alt="weather image"><p id="day4temp"></p>
+</section>
+<section id="day5"><p id="day5date" class="date"> </p>
+<img src="" id="day5img" alt="weather image"><p id="day5temp"></p>
+</section>
+
+</section>
+<script src="weather.js"></script>
+
+</body>
+
+</html>

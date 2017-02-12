@@ -1,0 +1,155 @@
+.keeplevel p  {
+	line-height: 0em; 
+    display: inline-block;
+    vertical-align: top;
+
+}
+body {
+	   color: grey;
+	   background-color: #f3f3f3; 
+	   text-align:center;
+}
+#todayWeather {
+	float:right;
+	
+}
+
+#main {
+	height: auto;
+    border-style: solid;
+    border-width: 4px;
+	width:80%;
+    margin:0 auto;
+    display:inline-block;
+	clear:left;
+	overflow:auto
+}
+
+td {
+	text-align: center;
+	padding:2px;
+}
+#day1 {
+	
+	float:left;
+    padding:10px;
+	padding-left: 10%;
+	padding-right: 5%;
+}
+#day2 {
+	
+	float:left;
+    padding:10px;
+	padding-left: 10%;
+	padding-right: 5%;
+}
+#day3 {
+	float:left;
+    padding:10px;
+		padding-left: 10%;
+	padding-right: 5%;
+} 
+#day4 {
+	float:left;
+    padding:10px;
+		padding-left: 10%;
+	padding-right: 5%;
+} 
+#day5 {
+	float:left;
+	
+    padding:10px;
+		padding-left: 10%;
+	padding-right: 5%;
+}  
+
+img:hover {
+-webkit-transform:scale(1.2);
+transform:scale(1.1);
+}
+img {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+
+}
+
+.swap {
+	cursor:pointer;
+	color:#0074D9;
+}
+h2 {
+	float:right;
+	padding-left: 0px;
+}
+
+h3 {
+
+}
+
+/* Mobile Breakpoint */
+[class*="col-"] {
+    width: 100%;
+	
+	
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.weather {
+	padding-right: 10px;
+	text-align:left;
+}
+
+.tables {
+	width:50%
+	text-align:center;
+}
+.fdforecast {
+	text-align:center;
+}
+
+.topweather {
+	display:inline-block;
+}
+
+p {
+	 font-family: "Times New Roman", Times, serif;
+
+}
